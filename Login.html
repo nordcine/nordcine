@@ -1,0 +1,70 @@
+<html lang="fr">
+
+    <head>
+
+        <meta charset="utf-8">
+
+        <title></title>
+
+        <link rel="stylesheet" href="Login.css">
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js" charset="utf-8"></script>
+
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+
+        <form action="Login.html" class="login-form">
+
+            <h1>Connexion</h1>
+
+            <div class="txtb">
+
+                <input type="text">
+
+                <span data-placeholder="Nom d'utilisateur"></span>
+
+            </div>
+
+            <div class="txtb">
+
+                <input type="password">
+
+                <span data-placeholder="Mot de passe"></span>
+
+            </div>
+
+            <input type="submit" class="logbtn" value="Connexion">
+
+            <div class="bottom-text">
+
+                Vous n'avez pas de compte ? <a href="#">S'inscrire</a>
+
+            </div>
+
+            <div class="bottom-text">
+
+                <a href="Accueil.html">Annuler</a>
+
+            </div>
+
+        </form>
+
+        <script type="text/javascript">
+        
+            $(".txtb input").on("focus",function(){
+                $(this).addClass("focus");
+            });
+
+            $(".txtb input").on("blur",function(){
+                if($(this).val() == "")
+                $(this).removeClass("focus");
+            });
+        
+        </script>
+
+    </body>
+
+</html>

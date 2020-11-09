@@ -1,0 +1,49 @@
+.home_info_container {
+    width: 60%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.info_view_title {
+    border-bottom: 2px solid red;
+    line-height: 50px;
+    font-weight: 700;
+}
+
+.info_view_subtitle {
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    font-style: 15px;
+}
+
+.info_view_content {
+    padding-top: 20px;
+    text-align: justify;
+    font-weight: 300;
+    padding-bottom: 30px;
+    font-size: 17px;
+    line-height: 25px;
+    font-style: italic;
+}
+
+.hyperlien {
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    color: black;
+}
+
+.questions {
+    font-style: italic;
+    border-bottom: 2px solid red;
+    line-height: 50px;
+}
+
+.reponses {
+    text-align: justify;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    font-style: 15px;
+}

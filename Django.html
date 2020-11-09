@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+    <head>
+
+        <meta charset="utf-8">
+
+        <title>NORDCINÉ</title>
+
+        <script src="https://kit.fontawesome.com/6fc130a6aa.js" crossorigin="anonymous"></script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+        <script src="API Synopsis Django.js"></script>
+
+        <script src="Cast Django.js"></script>
+
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="base.css">
+
+        <link rel="stylesheet" href="header.css">
+
+        <link rel="stylesheet" href="Django.css">
+
+        <link rel="stylesheet" href="nav.css">
+
+    </head>
+
+    <body>
+
+        <div class="header header_article">
+
+            <div class="header_texture"></div>
+
+            <div class="header_mask">
+
+                <svg width="100%" height="100%" viewBox="0 0 100 100" preserveAspectRatio="none">
+
+                    <path d="M0 100 L 0 0 C 25 100 75 100 100 0 L 100 100" fill="#fff"></path>
+
+                </svg>
+
+            </div>
+
+            <div class="container">
+
+                <div class="header_navbar">
+
+                    <div class="header_navbar_logo">
+
+                        <h1 class="header_navbar_logo_title">NORDCINÉ</h1>
+
+                    </div>
+
+                    <!--<div class="header_navbar_menu">
+                            
+                        <a href="Accueil.html" class="header_navbar_menu_link"><i class="fas fa-house-user"></i> Accueil</a>
+
+                        <a href="Affiche.html" class="header_navbar_menu_link"><i class="fas fa-video"></i> A l'Affiche</a>
+
+                        <a href="Cinémas.html" class="header_navbar_menu_link"><i class="fas fa-ticket-alt"></i> Les Cinémas</a>
+
+                        <a href="Questions.html" class="header_navbar_menu_link"><i class="fas fa-question"></i> Des Questions</a>
+
+                        <a href="Login.html" class="header_navbar_menu_link"><i class="fas fa-sign-in-alt"></i> Connexion</a>
+
+                    </div>-->
+
+                    <nav>
+
+                        <a href="Accueil.html"><i class="fas fa-house-user"></i> Accueil</a>
+                
+                        <a href="Affiche.html"><i class="fas fa-video"></i> Affiche</a>
+                
+                        <a href="Cinemas.html"><i class="fas fa-ticket-alt"></i> Cinémas</a>
+                
+                        <a href="Questions.html"><i class="fas fa-question"></i> Question</a>
+                
+                        <a href="Login.html"><i class="fas fa-sign-in-alt"></i> Connexion</a>
+                
+                        <div class="animation start-accueil"></div>
+                
+                    </nav>
+
+                    <div class="header_navbar_toggle">
+
+                        <span class="header_navbar_toggle_icons"></span>
+
+                    </div>
+
+                </div>
+
+                <div class="header_slogan">
+
+                    <h1 class="header_slogan_title" id="zone_title"></h1>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="article_view_container">
+
+            <div class="article_view">
+
+                <iframe class="article_view_bande-annonce" width="840" height="472,5" src="https://www.youtube.com/embed/K2XjgsfzDrU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                <h2 class="article_view_title" id="zone_title2"></h2>
+
+                <p class="article_view_tagline" id="zone_tagline"></p>
+
+                <p class="article_view_content" id="zone_synopsis"></p>
+
+                <h2 class="article_cast">Casting :</h2>
+
+                <p class="article_view_cast" id="zone_cast"></p>
+
+                <h2 class="article_crew">Equipe du film :</h2>
+
+                <p class="article_view_crew_real" id="zone_real"></p>
+
+                <p class="article_view_crew_producer" id="zone_producer"></p>
+
+                <h2 class="article_infos">Informations sur le film :</h2>
+
+                <p class="article_view_infos_date" id="zone_date"></p>
+
+                <p class="article_view_infos_production" id="zone_production"></p>
+
+                <p class="article_view_infos_budget" id="zone_budget"></p>
+
+                <p class="article_view_infos_recette" id="zone_recette"></p>
+
+            </div>
+            
+        </div>
+
+        <button class="btn">
+            
+            <i class="fas fa-arrow-up"></i>
+
+        </button>
+
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+        <script src="app.js"></script>
+
+        <script src="Fleche.js"></script>
+
+    </body>
+
+</html>

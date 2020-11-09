@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+    <head>
+
+        <meta charset="utf-8">
+
+        <title>NORDCINÉ</title>
+
+        <script src="https://kit.fontawesome.com/6fc130a6aa.js" crossorigin="anonymous"></script>
+
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="base.css">
+
+        <link rel="stylesheet" href="header.css">
+
+        <link rel="stylesheet" href="Questions.css">
+
+        <link rel="stylesheet" href="nav.css">
+
+    </head>
+
+    <body>
+
+        <div class="header">
+
+            <div class="header_texture"></div>
+
+            <div class="header_mask">
+
+                <svg width="100%" height="100%" viewBox="0 0 100 100" preserveAspectRatio="none">
+
+                    <path d="M0 100 L 0 0 C 25 100 75 100 100 0 L 100 100" fill="#fff"></path>
+
+                </svg>
+
+            </div>
+
+            <div class="container">
+
+                <div class="header_navbar">
+
+                    <div class="header_navbar_logo">
+
+                        <h1 class="header_navbar_logo_title">NORDCINÉ</h1>
+
+                    </div>
+
+                    <!--<div class="header_navbar_menu">
+                            
+                        <a href="Accueil.html" class="header_navbar_menu_link"><i class="fas fa-house-user"></i> Accueil</a>
+
+                        <a href="Affiche.html" class="header_navbar_menu_link"><i class="fas fa-video"></i> A l'Affiche</a>
+
+                        <a href="Cinémas.html" class="header_navbar_menu_link"><i class="fas fa-ticket-alt"></i> Les Cinémas</a>
+
+                        <a href="Questions.html" class="header_navbar_menu_link"><i class="fas fa-question"></i> Des Questions</a>
+
+                        <a href="Login.html" class="header_navbar_menu_link"><i class="fas fa-sign-in-alt"></i> Connexion</a>
+
+                    </div>-->
+
+                    <nav>
+
+                        <a href="Accueil.html"><i class="fas fa-house-user"></i> Accueil</a>
+                
+                        <a href="Affiche.html"><i class="fas fa-video"></i> Affiche</a>
+                
+                        <a href="Cinemas.html"><i class="fas fa-ticket-alt"></i> Cinémas</a>
+                
+                        <a href="Questions.html"><i class="fas fa-question"></i> Question</a>
+                
+                        <a href="Login.html"><i class="fas fa-sign-in-alt"></i> Connexion</a>
+                
+                        <div class="animation start-accueil"></div>
+                
+                    </nav>
+
+                    <div class="header_navbar_toggle">
+
+                        <span class="header_navbar_toggle_icons"></span>
+
+                    </div>
+
+                </div>
+
+                <div class="header_slogan">
+
+                    <h1 class="header_slogan_title">PARCE QUE DANS CH'NORD ON AIME LE CINEMA !</h1>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="home_info_container">
+
+            <div class="info_view">
+
+                <div class="info_view_content">
+
+                    <h2 class="questions">En quoi consiste notre projet ?</h2>
+
+                    <h3 class="reponses">Nous sommes deux élèves de Terminales en spécialité ISN (Informatique et Sciences du Numérique). En vu du baccalauréat, un projet portant sur un sujet définit en début d’année nous a été demandé.
+                        Notre sujet est l’API (Application Program Interface).
+                        Pour travailler sur ce sujet nous avons décidé d’effectuer un site internet sur la thématique du cinéma : NordCiné. 
+                        NordCiné présente les films actuellement dans les salles de cinéma en affichant : le synopsis, la tagline, le titre, le casting principal et l’affiche du film. Mais également, il permet aux utilisateurs de rechercher un cinéma présents dans le Nord de la France grâce à une carte ou alors à une barre de recherche.
+                        Pour ces fonctionnalités, nous utilisons des API.</h3>
+
+                    <h2 class="questions">Pourquoi avoir choisi ce sujet et ce thème ?</h2>
+
+                    <h3 class="reponses">Notre choix s’est tourné vers les API car c’est un sujet très large offrant énormément de possibilités et pour notre thème, nous avons choisi le cinéma car nous sommes tous les deux des passionnés. Nous adorons aller au cinéma voir les nouvelles sorties allant de la comédie à la science-fiction pour ressentir des émotions toujours plus fortes qu'en regardant la télé !</h3>
+
+                    <h2 class="questions">Comment avez-vous créé le site web ?</h2>
+
+                    <h3 class="reponses">Nous avons créé le site web à l'aide de nos connaissances mais aussi grâce à notre apprentissage en autonomie. 
+                        
+                        Nous avons regardé des tutos sur Youtube, des articles sur internet mais aussi grâce à l'aide de notre professeur.
+                        
+                        Nous utilisons l'API de <a class="hyperlien" href="https://www.themoviedb.org/?language=fr">TMDB (The Movie Database)</a> pour afficher le synopsis des films. 
+
+                        Nous utilisons aussi des bases de données que nous avons nous-mêmes créées pour, par exemple, choisir un <a class="hyperlien" href="Cinémas.php">cinéma</a> proche de chez vous sur notre carte ou en tapant tout simplement le nom de celui-ci dans une barre de recherche !</h3>
+
+                    <h2 class="questions">Qu’est ce qu’une API ?</h2>
+
+                    <h3 class="reponses">Pour faire simple, une API est une Interface de Programmation d’Application, elle permet de récupérer et d’utiliser des données d’une application indépendamment de celle-ci sur une autre application. Il existe plusieurs types d’API comme les POST, DELETE, GET… Notre site utilise exclusivement des API GET.</h3>
+
+                    <h2 class="questions">Est-ce que votre site ressemble à votre idée de départ ?</h2>
+
+                    <h3 class="reponses">Non car notre idée de départ était bien de créer un site web en rapport avec le cinéma mais nous voulions présenter chaque film à l'aide de plusieurs API tel que l’API Youtube permettant de visionner la bande-annonce du film,
+                        
+                        l’API Google Maps affichant une carte situant les cinémas les plus proches et l'API Twitter pour pouvoir afficher les avis d'utilisateurs avec un Hashtag précis.</h3>
+
+                    <h2 class="questions">Avez-vous eu des problèmes pendant votre projet ?</h2>
+
+                    <h3 class="reponses">Oui, par exemple comme dit dans la réponse juste au-dessus nous voulions utiliser l'API de Youtube, Google Maps et de Twitter.
+                        
+                        Pour Youtube et Twitter nous avons fait une demande par mail mais nous n'avons jamais reçu de réponse, ce qui ne nous a pas permis d'avoir accès aux clés d'API.
+                        
+                        Pour Google Maps il fallait rentrer des informations bancaires pour y avoir accès mais nous voulions créer un site sans payer.
+                        
+                        À la suite de ça nous étions perdus et nous ne sachions plus quoi faire heureusement nous avons trouvé l'API de <a class="hyperlien" href="https://www.themoviedb.org/?language=fr">TMDB</a> qui nous a permis d'obtenir les informations voulues sans aucun problème.</h3>
+
+
+                </div>
+
+            </div>
+            
+        </div>
+
+        <button class="btn">
+            
+            <i class="fas fa-arrow-up"></i>
+
+        </button>
+      
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+        <script src="app.js"></script>
+
+        <script src="Fleche.js"></script>
+
+    </body>
+
+</html>
