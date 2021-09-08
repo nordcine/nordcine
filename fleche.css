@@ -1,0 +1,32 @@
+.fleche {
+    font-size: 1em;
+    padding: 5px;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background: #ca2424;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+    color: white;
+    font-family: 'Nunito';
+    box-shadow: 2.5px 3.5px 3px 0px rgb(0 0 0 / 0.25);
+    outline: none;
+    transition: 0.1s;
+}
+
+.fleche:hover {
+    transform: scale(1.1);
+    box-shadow: 2.5px 3.5px 3px 0px rgb(0 0 0 / 0.15);
+}
+
+.fleche:active {
+    transform: scale(1);
+    box-shadow: 2.5px 3.5px 3px 0px rgb(0 0 0 / 0.25);
+}
+
+.icone {
+    color: white;
+}

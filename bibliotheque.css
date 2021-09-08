@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    margin: 0;
+    padding: 0px;
+    font-family: 'Nunito';
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.bibli_movie {
+    /*background-color: #373b69;*/
+    border-radius: 15px;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    position: relative;
+    margin: 1rem;
+    width: 300px;
+    height: 450px;
+}
+
+.bibli_movie img {
+    width: 100%;
+    height: 100%;
+    transition: 0.2s;
+}
+
+.bibli_movie:hover img {
+    filter: blur(1px);
+    transition: 0.2s;
+}
+
+.bibli_movie-bibli_info {
+    color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem 1rem;
+    letter-spacing: 0.5px;
+}
+
+.bibli_movie-bibli_info h3 {
+    margin: 0;
+}
+
+.bibli_info span {
+    background-color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 0.2rem 0.5rem;
+}
+.bibli_info span.green {
+    color: rgb(39, 189, 39);
+}
+
+.bibli_info span.orange {
+    color: orange;
+}
+
+.bibli_info span.red {
+    color: rgb(189, 42, 42);
+}
+
+.bibli_info {
+    background: linear-gradient(0deg, #000 50%, transparent);
+    padding: 2rem;
+    position: absolute;
+    max-height: 100%;
+    overflow: auto;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    transform: translateY(101%);
+    transition: transform 0.3s ease-in;
+    color: white;
+}
+
+.bibli_info h3 {
+    margin-top: 0.5rem;
+}
+
+.bibli_movie:hover .bibli_info {
+    transform: translateY(0);
+}
+
+.bibli_pages {
+    width: 90%;
+    margin: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.bibli_next_page {
+    background-color: #2f3640;
+    border: 2px solid #ca2424;
+    padding: 0.5rem 1rem;
+    outline: none;
+    text-decoration: none;
+    border-radius: 50px;
+    font-family: inherit;
+    font-size: 1rem;
+    color: white;
+    transition: transform 0.3s;
+    margin-left: 5px;
+}
+
+.bibli_next_page:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s;
+    box-shadow: 0 4px 5px rgba(0, 0, 1, 0.2);
+}

@@ -1,0 +1,150 @@
+.header {
+    height: 400px;
+    width: 100%;
+    background: #ca2424;
+    position: relative;
+}
+
+.header_slogan {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+@media only screen and (max-width: 1220px){
+    .header_slogan {
+         margin-bottom: 40px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 670px){
+    .header_slogan {
+        margin-bottom: 10px;
+   }
+}
+
+.header_slogan_title {
+    color: #fff;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.header_texture {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;left: 0;
+    background: url('Cinema.jpg') center no-repeat;
+    background-size: cover;
+    z-index: 1;
+    opacity: 0.7;
+}
+
+.header_texture_ae {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;left: 0;
+    background: url('fond_ae.jpg') center no-repeat;
+    background-position-Y: -155px;
+    z-index: 1;
+    opacity: 1;
+}
+
+.header_mask {
+    position: absolute;
+    bottom: 0;
+    background: 0 0;
+    height: 42px;
+    width: 100%;
+    z-index: 10;
+}
+
+@media only screen and (max-width: 700px){
+    .container {
+        width: 100%;
+        padding: 0 20px;
+    }
+}
+
+.header_carte {
+    position: absolute;
+    top: 240%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #ca2424;
+    height: 60px;
+    border-radius: 40px;
+    padding: 10px;
+    width: 240px;
+    z-index: 2;
+}
+
+.header_button_carte {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 240px;
+    padding: 0 6px;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+@media only screen and (max-width: 1243px){
+    .header_carte {
+        position: absolute;
+        top: 185%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        background: #ca2424;
+        height: 60px;
+        border-radius: 40px;
+        padding: 10px;
+        width: 240px;
+    }
+
+    .header_slogan_box {
+        position: absolute;
+        top: 130%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        background: #2f3640;
+        height: 60px;
+        border-radius: 40px;
+        padding: 10px;
+        width: 240px;
+    }
+}
+
+@media only screen and (max-width: 728px){
+    .header_carte {
+        position: absolute;
+        top: 150%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        background: #ca2424;
+        height: 60px;
+        border-radius: 40px;
+        padding: 10px;
+        width: 240px;
+    }
+
+    .header_slogan_box {
+        position: absolute;
+        top: 113%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        background: #2f3640;
+        height: 60px;
+        border-radius: 40px;
+        padding: 10px;
+        width: 240px;
+    }
+}

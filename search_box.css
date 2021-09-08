@@ -1,0 +1,153 @@
+.movie_search {
+    margin-bottom: 100px;
+}
+
+.cine_search_form {
+    display: flex;
+    justify-content: center;
+}
+
+.cine_search_box {
+    background-color: #2f3640;
+    border: 2px solid #ca2424;
+    border-radius: 50px;
+    color: #fff;
+    font-family: inherit;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+}
+
+.cine_search_box::placeholder {
+    color: white;
+}
+
+.cine_search_box:focus {
+    outline: none;
+}
+
+.cine_search_box_btn {
+    color: #ca2424;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #2f3640;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+.cine_search_box_btn:hover {
+    background: white;
+    border-color: #ca2424;
+    transition: 0.2s;
+}
+
+.fas {
+    transition: 0.2s;
+}
+
+.cine_search_box_btn:hover .fas {
+    transform: scale(1.2);
+    transition: 0.2s;
+}
+
+/*.cine_search_box_txt {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 240px;
+    padding: 0 6px;
+}
+
+.cine_search_box_btn {
+    color: #ca2424;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #2f3640;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    outline: none;
+    transition: 0.4s;
+}*/
+
+.cine_search_box_result {
+    width: 60%;
+    margin: auto;
+    padding-top: 90px;
+}
+
+.cine_search_box_result_search {
+    text-decoration: none;
+    color: #000;
+    line-height: 50px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+/*.cine_search_box:hover > .cine_search_box_btn {
+    background: white;
+}*/
+
+.bibli_search_form {
+    display: flex;
+    justify-content: center;
+}
+
+.bibli_search_box {
+    background-color: #2f3640;
+    border: 2px solid #ca2424;
+    border-radius: 50px;
+    color: #fff;
+    font-family: inherit;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+}
+
+.bibli_search_box::placeholder {
+    color: white;
+}
+
+.bibli_search_box:focus {
+    outline: none;
+}
+
+.bibli_search_box_btn {
+    color: #ca2424;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #2f3640;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+.bibli_search_box_btn:hover {
+    background: white;
+    border-color: #ca2424;
+    transition: 0.2s;
+}
+
+.fas {
+    transition: 0.2s;
+}
+
+.bibli_search_box_btn:hover .fas {
+    transform: scale(1.2);
+    transition: 0.2s;
+}

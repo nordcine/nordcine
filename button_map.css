@@ -1,0 +1,34 @@
+.cine_button_map {
+    display: flex;
+    justify-content: center;
+    padding-top: 9rem;
+}
+
+@media only screen and (max-width: 1220px){
+    .cine_button_map {
+        padding-top: 7rem;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 670px){
+    .cine_button_map {
+        padding-top: 4rem;
+   }
+}
+
+.button_map {
+    background-color: #ca2424;
+    border-radius: 50px;
+    color: #fff;
+    font-family: inherit;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.button_map:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+}

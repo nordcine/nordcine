@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+
+<html lang="fr">
+
+    <head>
+
+        <meta charset="utf-8">
+
+        <title>NORDCINÉ</title>
+
+        <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=S_Zxndq9RWbwn14YEF7B84u5WT9_OFYkngjX8NL46gfID7Hl1ftCc7GOnt1HMoADIBISrDUucwZUc4YN2yhKCA" charset="UTF-8"></script><script src="https://kit.fontawesome.com/6fc130a6aa.js" crossorigin="anonymous"></script>
+
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="base.css">
+
+        <link rel="stylesheet" href="header.css">
+
+        <link rel="stylesheet" href="nav.css">
+
+        <link rel="stylesheet" href="search_box.css">
+
+        <link rel="stylesheet" href="fleche.css">
+
+        <link rel="stylesheet" href="button_map.css">
+
+    </head>
+
+    <body>
+
+        <div class="header">
+
+            <div class="header_texture"></div>
+
+            <div class="header_mask">
+
+                <svg width="100%" height="100%" viewBox="0 0 100 100" preserveAspectRatio="none">
+
+                    <path d="M0 100 L 0 0 C 25 100 75 100 100 0 L 100 100" fill="#fff"></path>
+
+                </svg>
+
+            </div>
+
+            <div class="container">
+
+                <div class="all_nav">
+
+                    <h1 class="logo_nav">NORDCINÉ</h1>
+
+                    <nav>
+
+                        <a href="accueil.html"><i class="fas fa-house-user"></i> Accueil</a>
+                
+                        <a href="bibliotheque.html"><i class="fas fa-book"></i> Bibliothèque</a>
+                
+                        <a href="cinemas.html"><i class="fas fa-ticket-alt"></i> Cinémas</a>
+                
+                        <!--<a href="Login.html"><i class="fas fa-sign-in-alt"></i> Connexion</a>-->
+                
+                        <div class="animation start-cinemas"></div>
+                
+                    </nav>
+
+                    <div class="toggle_nav"></div>
+
+                </div>
+
+                <div class="header_slogan">
+
+                    <h1 class="header_slogan_title">PARCE QUE DANS L'CH'NORD ON AIME LE CINEMA !</h1>
+
+                </div>
+
+                <form id="form" class="cine_search_form">
+    
+                    <input type="text" id="search" placeholder="Recherchez" class="cine_search_box"/>
+                        
+                        <button type="submit" class="cine_search_box_btn" value=""><i style="color: #ca2424" class="fas fa-search"></i></button>
+                        
+                    </input>
+        
+                </form>
+
+                <form class="cine_button_map">
+
+                    <a href="carte.html" class="button_map"><i style="color: white" class="fas fa-map"></i> Voulez vous voir la carte ?</a>
+
+                </form>
+
+            </div>
+
+        </div>
+
+        <div class="cine_search_box_result">
+
+            <li><a href="https://www.ugc.fr/cinema.html?id=24" class="cine_search_box_result_search" target="_blank">UGC Villeneue d'ascq</a></li>
+
+        </div>
+
+        <button class="fleche">
+            
+            <i class="fas fa-arrow-up"></i>
+
+        </button>
+      
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+        <script src="app.js"></script>
+
+        <script src="fleche.js"></script>
+
+    </body>
+ 
+</html>
